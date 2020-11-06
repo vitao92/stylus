@@ -7,7 +7,7 @@
 ==/UserStyle== */
 
 @-moz-document domain("www.youtube.com") {
-  /* Insira o código aqui... */*, *:before, *:after {
+  *, *:before, *:after {
     color: #aaa !important;
 } 
 .badge-style-type-live-now.ytd-badge-supported-renderer {
