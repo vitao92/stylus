@@ -1,0 +1,49 @@
+/* ==UserStyle==
+@name           Youtube
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("www.youtube.com") {
+  /* Insira o código aqui... */*, *:before, *:after {
+    color: #aaa !important;
+} 
+.badge-style-type-live-now.ytd-badge-supported-renderer {
+    border-color: #aaa!important;
+}
+
+paper-button.ytd-subscribe-button-renderer {
+    background-color: rgb(0, 87, 163)!important;
+    color: rgb(145, 145, 145);
+}
+
+yt-formatted-string.ytd-video-primary-info-renderer {
+    color: #aaa !important;
+}
+
+
+yt-formatted-string[has-link-only_]:not([force-default-style]) a.yt-simple-endpoint.yt-formatted-string {
+    color: #aaa!important;
+}
+ytd-button-renderer #button.ytd-button-renderer {
+    border-color: #aaa!important;
+}
+.sbsb_a, .sbfl_b, .sbqs_c, .sbsb_c.gsfs {
+    background: #373737;
+    border-color: #242424!important;
+}
+
+ytd-clarification-renderer[background-style="info"] {
+    display: none!important;
+}
+
+#progress.ytd-thumbnail-overlay-resume-playback-renderer {
+    background-color: #314f9d;
+    height: 100%;
+}
+
+yt-button-renderer #button.yt-button-renderer {
+  background-color: #1d232b !important
+}}

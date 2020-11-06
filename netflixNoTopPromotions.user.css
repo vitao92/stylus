@@ -1,0 +1,17 @@
+/* ==UserStyle==
+@name           Netflix
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("www.netflix.com") {
+.billboard-row{
+	display:none !important;
+}
+
+.pinning-header {
+    height: 70px;
+    margin-bottom: 40px !important;
+}}
