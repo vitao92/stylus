@@ -7,7 +7,7 @@
 ==/UserStyle== */
 
 @-moz-document domain("www.reddit.com"), domain("np.reddit.com"), domain("old.reddit.com") {
-  /* Insira o código aqui... */body {
+  body {
   background: #272b30;
   color: #45494d;
   font-family: Verdana, Helvetica, Arial, Sans;
