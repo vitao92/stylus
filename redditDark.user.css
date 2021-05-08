@@ -1903,6 +1903,9 @@ div.RESDialogSmall h3 {
   filter: invert(80%) hue-rotate(180deg) !important
 }
 
+div.RESHover.RESHoverInfoCard.RESDialogSmall {
+  display: none !important
+}
 /*========== Hide annoying stuff ==========*/
 
 .give-gold-button,
